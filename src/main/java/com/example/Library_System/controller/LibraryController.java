@@ -29,7 +29,7 @@ import com.example.Library_System.repository.GenreRepo;
 @CrossOrigin(origins = "http://localhost:8080")
 @RestController
  //to identify different controllers created. In this case only one is created.   
-@RequestMapping("/api")
+@RequestMapping("/")
 public class LibraryController {
 	
 	@Autowired
